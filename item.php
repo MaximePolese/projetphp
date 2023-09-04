@@ -13,12 +13,11 @@ $picture = 'https://dk0fkjygbn9vu.cloudfront.net/cache-buster-11693445103/deuter
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Rando Shop</title>
 </head>
 
 <body>
 <header>
-
 </header>
 <main>
     <article class="product">
@@ -27,9 +26,20 @@ $picture = 'https://dk0fkjygbn9vu.cloudfront.net/cache-buster-11693445103/deuter
         <img src="<?php echo $picture ?>" alt="">
         <p>Prix : <?php echo $price?> €</p>
     </article>
+    <article class="product">
+        <h2 class="nomDuProduit"><?php echo $name ?></h2>
+        <p>Description du produit</p>
+        <img src="<?php echo $picture ?>" alt="">
+        <p>Prix : <?php echo $price?> €</p>
+    </article>
+    <article class="product">
+        <h2 class="nomDuProduit"><?php echo $name ?></h2>
+        <p>Description du produit</p>
+        <img src="<?php echo $picture ?>" alt="">
+        <p>Prix : <?php echo $price?> €</p>
+    </article>
 </main>
 <footer>
-
 </footer>
 </body>
 </html>
