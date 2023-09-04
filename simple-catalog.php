@@ -1,7 +1,9 @@
 <?php
 
  $products=["Sacs", "Tentes", "Matelas", "Sacs de couchage", "Bâtons"];
-    print_r($products);
+
 ?>
 
-
+<pre>
+    <?php print_r($products); ?>
+</pre>
