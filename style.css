@@ -1,3 +1,25 @@
-.nomDuProduit{
-    font-family: Inter;
+:root {
+    --font-size: 18px;
+    --spacing-default: 3rem;
+    --color-primary: #f07167;
+    --color-contrast: #00afb9;
+    --color-background: #f5f5f5;
+    --color-white: #ffffff;
+    --color-text: #0a2540;
+
+    --width-site: 1440px;
 }
+
+html {
+    font-size: var(--font-size);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
