@@ -13,9 +13,8 @@
 
 <body>
 <header>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-info">
     <div class="container">
-    <div class="container-fluid">
         <a class="navbar-brand" href="#">Rando Shop</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,18 +34,19 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Sacs</a></li>
                         <li><a class="dropdown-item" href="#">Tentes</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Matelas</a></li>
+                        <li><a class="dropdown-item" href="#">Sacs de couchage</a></li>
+                        <li><a class="dropdown-item" href="#">Bâtons</a></li>
                     </ul>
                 </li>
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-warning" type="submit">Search</button>
             </form>
         </div>
     </div>
-    </div>
+
 </nav>
 </header>
 
