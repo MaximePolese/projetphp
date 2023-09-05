@@ -26,3 +26,7 @@ html {
     width: 25%;
     height: 25%;
 }
+
+.productDescription {
+    max-width: 300px;
+}

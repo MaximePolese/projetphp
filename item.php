@@ -10,9 +10,9 @@ include 'header.php';
 ?>
 
     <section class="container">
-        <article class="product">
+        <article class="d-flex flex-row p-2">
             <h2 class="nomDuProduit"><?php echo $name ?></h2>
-            <p>Description : <?php echo $description?></p>
+            <p class="productDescription">Description : <?php echo $description?></p>
             <img class="productPic" src="<?php echo $picture ?>" alt="">
             <p>Prix : <?php echo $price?> €</p>
         </article>
