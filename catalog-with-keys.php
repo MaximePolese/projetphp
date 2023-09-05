@@ -8,6 +8,8 @@ $Sacs = [
     "picture_url" => "https://dk0fkjygbn9vu.cloudfront.net/cache-buster-11693445103/deuter/mediaroom/product-images/backpacks/hiking-backpacks/159244/image-thumb__159244__deuter_lightbox-img/3440723-3253-Trail30_wave_ivy-D-00.png"
 ];
 
+print_r($Sacs);
+
 echo $Sacs["name"] . " ";
 echo $Sacs["price"] . " ";
 echo $Sacs["weight"] . " ";
