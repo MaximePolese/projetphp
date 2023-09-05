@@ -10,5 +10,4 @@ foreach ($products as $val) {
 echo $products[0];
 echo $products[4];
 
-?>
 
