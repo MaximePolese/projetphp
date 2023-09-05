@@ -22,3 +22,7 @@ html {
     margin: 0 auto;
 }
 
+.productPic {
+    width: 25%;
+    height: 25%;
+}

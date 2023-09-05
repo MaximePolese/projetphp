@@ -13,7 +13,7 @@ include 'header.php';
         <article class="product">
             <h2 class="nomDuProduit"><?php echo $name ?></h2>
             <p>Description : <?php echo $description?></p>
-            <img src="<?php echo $picture ?>" alt="">
+            <img class="productPic" src="<?php echo $picture ?>" alt="">
             <p>Prix : <?php echo $price?> €</p>
         </article>
     </section>
