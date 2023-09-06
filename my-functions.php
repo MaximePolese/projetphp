@@ -17,7 +17,7 @@ function priceExcludingVAT(float $price, float $vat): float
 
 function discountedPrice(float $price, float $discount): float
 {
-    return $price - ($price*$discount/100);
+    return $price - ($price * $discount / 100);
 }
 
 //echo formatPrice(discountedPrice(1000, 20));
