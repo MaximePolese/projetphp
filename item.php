@@ -12,17 +12,17 @@ include 'header.php';
 
 ?>
 
-<?php foreach ($products as $product) { ?>
+<?php foreach ($Sacs as $Sac) { ?>
 
     <section class="container">
         <article class="product d-flex flex-row">
-            <h2 class="nomDuProduit p-2"><?php echo $product["name"] ?></h2>
+            <h2 class="nomDuProduit p-2"><?php echo $Sac["name"] ?></h2>
             <p class="productDescription p-2">Description : <?php echo $description ?></p>
-            <img class="productPic p-2" src="<?php echo $product["picture_url"] ?>" alt="">
+            <img class="productPic p-2" src="<?php echo $Sac["picture_url"] ?>" alt="">
             <div class="d-flex flex-column">
-                <p>Poids : <?php echo $product["weight"] ?> gr</p>
-                <p>Prix : <?php echo $product["price"] ?> €</p>
-                <p>Remise : <?php echo $product["discount"] ?> %</p>
+                <p>Poids : <?php echo $Sac["weight"] ?> gr</p>
+                <p>Prix : <?php echo $Sac["price"] ?> €</p>
+                <p>Remise : <?php echo $Sac["discount"] ?> %</p>
             </div>
         </article>
     </section>

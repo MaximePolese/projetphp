@@ -1,6 +1,6 @@
 <?php
 
-$products = [
+$Sacs = [
     "trail 30" => [
         "name" => "Deuter trail 30",
         "price" => 145,

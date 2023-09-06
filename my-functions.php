@@ -1,5 +1,7 @@
 <?php
-function formatprice(1000);
-return 1000/100 . "€";
 
-echo return;
+function formatprice($price) {
+    return $price/100 ."," .  . " €";
+}
+
+echo formatprice(1000);
