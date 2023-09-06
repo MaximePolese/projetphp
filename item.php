@@ -1,4 +1,5 @@
 <?php
+include 'my-functions.php';
 //include 'catalog-with-keys.php';
 
 //$name = 'Deuter trail 30';
@@ -12,18 +13,20 @@ include 'header.php';
 
 ?>
 
-<h1 class=" d-flex justify-content-center p-3"><?php echo $products[0] ?></h1>
+<section class="container">
+    <h1 class=" d-flex justify-content-center border border-warning  border-3 py-2 mt-2"><?php echo $products[0] ?></h1>
+</section>
 
 <?php foreach ($sacs as $sac) { ?>
 
     <section class="container">
-        <article class="product d-flex flex-row">
+        <article class="product d-flex justify-content-around border border-warning  border-3 my-2">
             <h2 class="nomDuProduit p-2"><?php echo $sac["name"] ?></h2>
             <p class="productDescription p-2">Description : <?php echo $description ?></p>
-            <img class="productPic p-2" src="<?php echo $sac["picture_url"] ?>" alt="">
-            <div class="d-flex flex-column">
+            <img class="productPic align-self-center p-2" src="<?php echo $sac["picture_url"] ?>" alt="">
+            <div class="d-flex flex-column justify-content-end">
                 <p>Poids : <?php echo $sac["weight"] ?> gr</p>
-                <p>Prix : <?php echo $sac["price"] ?> €</p>
+                <p>Prix : <?php echo formatPrice($sac["price"]); ?></p>
                 <p>Remise : <?php echo $sac["discount"] ?> %</p>
             </div>
         </article>
