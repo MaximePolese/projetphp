@@ -29,6 +29,7 @@ include 'header.php';
                 <p>Prix HT : <?php echo formatPrice(priceExcludingVAT($sac["price"], $sac["vat"])); ?></p>
                 <p>Prix TTC : <?php echo formatPrice($sac["price"]); ?></p>
                 <p>Remise : <?php echo $sac["discount"] ?> %</p>
+                <p>Prix remisé : <?php echo formatPrice(discountedPrice($sac["price"], $sac["discount"])); ?></p>
             </div>
         </article>
     </section>
