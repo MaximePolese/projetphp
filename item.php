@@ -1,7 +1,7 @@
 <?php
 include 'my-functions.php';
-//include 'catalog-with-keys.php';
 
+//include 'catalog-with-keys.php';
 //$name = 'Deuter trail 30';
 //$price = 145;
 //$picture = 'https://dk0fkjygbn9vu.cloudfront.net/cache-buster-11693445103/deuter/mediaroom/product-images/backpacks/hiking-backpacks/159244/image-thumb__159244__deuter_lightbox-img/3440723-3253-Trail30_wave_ivy-D-00.png';
@@ -26,7 +26,8 @@ include 'header.php';
             <img class="productPic align-self-center p-2" src="<?php echo $sac["picture_url"] ?>" alt="">
             <div class="d-flex flex-column justify-content-end">
                 <p>Poids : <?php echo $sac["weight"] ?> gr</p>
-                <p>Prix : <?php echo formatPrice($sac["price"]); ?></p>
+                <p>Prix HT : <?php echo formatPrice(priceExcludingVAT($sac["price"], $sac["vat"])); ?></p>
+                <p>Prix TTC : <?php echo formatPrice($sac["price"]); ?></p>
                 <p>Remise : <?php echo $sac["discount"] ?> %</p>
             </div>
         </article>

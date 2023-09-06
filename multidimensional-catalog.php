@@ -3,6 +3,7 @@
 $sacs = [
     "trail 30" => [
         "name" => "Deuter trail 30",
+        "vat" => 20,
         "price" => 14500,
         "weight" => 1120,
         "discount" => 0,
@@ -10,6 +11,7 @@ $sacs = [
     ],
     "FUTURA 32" => [
         "name" => "Deuter FUTURA 32",
+        "vat" => 20,
         "price" => 16500,
         "weight" => 1440,
         "discount" => 20,
@@ -17,6 +19,7 @@ $sacs = [
     ],
     "AC Lite 14 SL" => [
         "name" => "Deuter AC Lite 14 SL",
+        "vat" => 20,
         "price" => 10000,
         "weight" => 860,
         "discount" => 10,
@@ -24,45 +27,10 @@ $sacs = [
     ],
     "Futura Pro 42 EL" => [
         "name" => "Deuter Futura Pro 42 EL",
+        "vat" => 20,
         "price" => 22500,
         "weight" => 1700,
         "discount" => 25,
         "picture_url" => "https://dk0fkjygbn9vu.cloudfront.net/cache-buster-11691634003/deuter/mediaroom/product-images/backpacks/hiking-backpacks/145856/image-thumb__145856__deuter_lightbox-img/3401421-7403-FuturaPro42EL_black_graphite-D-00.png"
     ],
 ];
-
-//
-////afficher le tableau
-//print_r($products);
-//echo "<br>";
-//echo "<br>";
-//
-////boucle while
-//$i = 0;
-//while ($i <= 4) {
-//    echo $products[$i] . "<br>";
-//    $i++;
-//}
-//echo "<br>";
-//
-////boucle do while
-//$i = 0;
-//do {
-//    echo $products[$i] . "<br>";
-//    $i++;
-//} while ($i <= 4);
-//echo "<br>";
-//
-////boucle for
-//for ($i = 0; $i < count($products); $i++) {
-//    echo $products[$i] . "<br>";
-//}
-//echo "<br>";
-//
-////boucle foreach
-//foreach ($products as $product) {
-//    echo $product . "<br>";
-//}
-//echo "<br>";
-//
-//
